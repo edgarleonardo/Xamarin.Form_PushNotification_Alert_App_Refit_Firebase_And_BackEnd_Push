@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>164511877704-dnoptulvm33lumrgsojfoqlnu1hinsrj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.164511877704-dnoptulvm33lumrgsojfoqlnu1hinsrj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBrWSNHj4VcrK-XYrlpwbRUT4e4Yktyvz0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>164511877704</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.edgarperez.Firebase.MessagePush</string>
+	<key>PROJECT_ID</key>
+	<string>fir-pushexample-3bc0c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-pushexample-3bc0c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>FirebaseAppDelegateProxyEnabled </key>
+	<string>No</string>
+</dict>
+</plist>

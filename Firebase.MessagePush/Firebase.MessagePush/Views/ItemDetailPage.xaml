@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Firebase.MessagePush.Views.ItemDetailPage"
+             Title="{Binding Title}">
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Title:" FontSize="Medium" />
+        <Label Text="{Binding Item.Title}" FontSize="Small"/>
+        <Label Text="Alert:" FontSize="Medium" />
+        <Label Text="{Binding Item.Message}" FontSize="Small"/>
+        <Label Text="Distance:" FontSize="Medium" />
+        <Label Text="{Binding Item.Distance}" FontSize="Small"/>
+        <Label Text="Lat:" FontSize="Medium" />
+        <Label Text="{Binding Item.Lat}" FontSize="Small"/>
+        <Label Text="Lon:" FontSize="Medium" />
+        <Label Text="{Binding Item.Lon}" FontSize="Small"/>
+    </StackLayout>
+</ContentPage>
