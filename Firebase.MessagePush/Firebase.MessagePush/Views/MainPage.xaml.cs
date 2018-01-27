@@ -58,7 +58,15 @@ namespace Firebase.MessagePush.Views
                 System.Diagnostics.Debug.WriteLine("Opened");
                 foreach (var data in p.Data)
                 {
-                    System.Diagnostics.Debug.WriteLine($"{data.Key} : {data.Value}");
+                    try
+                    {
+                        var str = data.Value.ToString();
+                        var current = (App)Xamarin.Forms.Application.Current;
+                        var alert = JsonConvert.DeserializeObject<Alert>(str);
+                        /// Calling if apply the activity of the alert reported
+                        current.DisplayAlert(alert);
+                    }
+                    catch { }
                 }
 
                 if (!string.IsNullOrEmpty(p.Identifier))
